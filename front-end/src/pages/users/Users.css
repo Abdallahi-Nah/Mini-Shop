@@ -1,0 +1,84 @@
+.users-container {
+    width: 80%;
+    height: 50vh;
+}
+
+.users-container .divLinkNewUser {
+    margin-bottom: 20px;
+    padding: 15px 35px;
+}
+
+.users-container .divLinkNewUser .LinkNewUser {
+    background-color: #0000ffbd;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.users-container .divLinkNewUser .LinkNewUser:hover {
+    color: #0000ffbd;
+    background-color: #fff;
+    border: 2px solid #0000ffbd;
+}
+
+.users-container .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.users-container .users-table thead tr th {
+    height: 40px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-right: 2px solid #fff;
+    background-color: #0000ffbd;
+}
+
+.users-container .users-table tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.users-container .users-table tbody tr td {
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 15px 15px;
+}
+
+.users-container .users-table thead tr th:last-child, .users-container .users-table tbody tr td:last-child {
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+} 
+
+.users-container .users-table thead tr th:first-child, .users-container .users-table tbody tr td:first-child {
+    border-left: 0px;
+}
+
+.users-container .users-table tbody tr td:last-child span {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.users-container .users-table tbody tr td:last-child span:last-child:hover {
+    background-color: rgba(165, 42, 42, 0.966);
+    padding: 10px 23px;
+}
+
+.users-container .users-table tbody tr td:last-child span:first-child {
+    background-color: #0a9048;
+    color: white;
+}
+
+.users-container .users-table tbody tr td:last-child span:first-child:hover {
+    background-color: #0a9049ea;
+    padding: 10px 23px;
+}
