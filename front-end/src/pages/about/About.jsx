@@ -28,8 +28,6 @@ const About = () => {
       technologies: [
         { name: "Node.js", level: 90, icon: "🟢" },
         { name: "Express.js", level: 88, icon: "🚀" },
-        { name: "Laravel", level: 85, icon: "🔴" },
-        { name: "PHP", level: 82, icon: "🐘" },
         { name: "RESTful APIs", level: 90, icon: "🔗" },
       ],
     },
